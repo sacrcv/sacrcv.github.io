@@ -163,9 +163,11 @@ span.highlight {
 }
 
 .publication-image img {
-  width: 100%;
+  width: 25%;
   height: auto;
   border-radius: 4px; /* slightly rounded image corners */
+  padding: 20px;
+  vertical-align: middle;
 }
 
 .publication-title {
