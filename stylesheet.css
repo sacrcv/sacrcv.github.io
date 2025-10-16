@@ -140,3 +140,29 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Styles for the navigation bar */
+.navbar {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky; /* Makes the bar stick to the top */
+  top: 0;
+  z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+/* Styles for the links inside the bar */
+.navbar a {
+  color: #337ab7;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Style for when you hover over a link */
+.navbar a:hover {
+  background-color: #e7e7e7;
+  border-radius: 5px;
+}

@@ -10,9 +10,22 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
+    <style>
+      /* Enables smooth scrolling when a nav link is clicked */
+      html {
+        scroll-behavior: smooth;
+      }</style>
+
   </head>
 
   <body>
+    <div class="navbar">
+      <a href="#updates">Updates</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+      <a href="#misc">Miscellaneous</a>
+    </div>
+
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -51,7 +64,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
 
 
-		        <h2>Updates</h2>
+		        <h2 id="updates">Updates</h2>
                   <p>
                     <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Jun'25:</span> <a href="#disenq" style="text-decoration: none;"> <strong>One first-author paper</strong></a> got accepted in ICCV 2025 as Highlight. ⭐️🔥 <br>
 
@@ -75,7 +88,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Publications</h2>
+              <h2 id="publications">Publications</h2>
             
             <p>Below is a selected list of my works (in <strong>chronological order</strong>), representative papers are <span style="background-color: #ffffd0;">highlighted</span>.</p>
           </td>
@@ -93,10 +106,8 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <h3>Streaming Long-form Video Understanding With On-time Answering</h3>
-              </a>
               <br>
               <strong> Shehreen Azad, </strong> Vibhav Vineet, Yogesh Singh Rawat 
-              <br>
               <br>
               <em>Ongoing </em>
               <br>
@@ -114,11 +125,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2507.07262">
-                <papertitle>DisenQ: Disentangling Q-Former for Activity-Biometrics</papertitle>
+                <h3>DisenQ: Disentangling Q-Former for Activity-Biometrics</h3>
               </a>
               <br>
               <strong> Shehreen Azad, </strong> Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>International Conference on Computer Vision, 2025 <strong>(ICCV)</strong> <strong>Highlight</strong> </em>
               <br>
               <em>Patent pending</em>
@@ -139,11 +150,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2408.11748">
-                <papertitle>GeoMeter: Understanding Depth and Height Perception in Large Visual Language Models</papertitle>
+                <h3>GeoMeter: Understanding Depth and Height Perception in Large Visual Language Models</h3>
               </a>
               <br>
               <strong> Shehreen Azad, </strong> Yash Jain, Rishit Garg, Vibhav Vineet, Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>Computer Vision and Pattern Recognition Conference Workshops, 2025 <strong>(CVPR Workshops)</strong> </em>
               <br>
               <em> 3rd Workshop on What is Next in Multimodal Foundation Models</em>
@@ -165,11 +176,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2502.20678">
-                <papertitle>HierarQ: Task-Aware Hierarchical Q-Former for Enhanced Video Understanding</papertitle>
+                <h3>HierarQ: Task-Aware Hierarchical Q-Former for Enhanced Video Understanding</h3>
               </a>
               <br>
               <strong> Shehreen Azad, </strong> Vibhav Vineet, Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>Computer Vision and Pattern Recognition Conference, 2025 <strong>(CVPR)</strong></em>
               <br>
               <a href="https://sacrcv.github.io/HierarQ-website/">Project Page</a> &nbsp/&nbsp
@@ -189,11 +200,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2306.09278">
-                <papertitle>Robustness Analysis on Foundation Segmentation Models</papertitle>
+                <h3>Robustness Analysis on Foundation Segmentation Models</h3>
               </a>
               <br>
               Madeline Chantry Schiappa, <strong> Shehreen Azad, </strong> Sachidanand VS, Yunhao Ge, Ondrej Miksik, Vibhav Vineet, Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>Computer Vision and Pattern Recognition Conference Workshops, 2024 <strong>(CVPR Workshops)</strong></em>
               <br>
               <em> 2nd Workshop on What is Next in Multimodal Foundation Models</em>
@@ -215,11 +226,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2304.03659">
-                <papertitle>Probing Conceptual Understanding of Large Visual Language Models</papertitle>
+                <h3>Probing Conceptual Understanding of Large Visual Language Models</h3>
               </a>
               <br>
               Madeline Chantry Schiappa, Raiyaan Abdullah, <strong> Shehreen Azad, </strong> Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>Computer Vision and Pattern Recognition Conference Workshops, 2024 <strong>(CVPR Workshops)</strong></em>
               <br>
               <em> 2nd Workshop on What is Next in Multimodal Foundation Models</em>
@@ -242,11 +253,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2403.17360">
-                <papertitle>Activity-Biometrics: Person Identification from Daily Activities</papertitle>
+                <h3>Activity-Biometrics: Person Identification from Daily Activities</h3>
               </a>
               <br>
               <strong> Shehreen Azad, </strong> Yogesh Singh Rawat
-              <br><br>
+              <br>
               <em>Computer Vision and Pattern Recognition Conference, 2024 <strong>(CVPR)</strong></em>
               <br>
               <em>Divisional patent pending</em>
@@ -263,7 +274,7 @@
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
                   <tr>
                     <td>
-                      <h2>Awards</h2>
+                      <h2 id="awards">Awards</h2>
                     </td>
                   </tr>
                 </tbody></table>
@@ -304,7 +315,7 @@
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <h2>Professional Service</h2>
+              <h2 id="misc">Professional Service</h2>
             </td>
           </tr>
         </tbody></table>
@@ -323,7 +334,7 @@
               <br>
               Reviewer, CVPR MMFM Workshop 2024, 2025
               <br>
-			  Reviewer, ICPR 2024
+			        Reviewer, ICPR 2024
               <br>
             </td>
           </tr>
