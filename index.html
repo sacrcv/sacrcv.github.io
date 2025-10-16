@@ -10,6 +10,10 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
+    <style>
+      html {
+        scroll-behavior: smooth;
+      } </style>
   </head>
 
   <body>
@@ -53,16 +57,22 @@
 		        <h2>Updates</h2>
                   <p>
                     <!-- <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Aug'25:</span> <strong>Broadening Participation Award</strong> to attend ICCV 2025. <br> -->
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Jun'25:</span> <strong>DisenQ (Fist-author paper)</strong> got accepted in ICCV 2025 as Highlight. ⭐️🔥 <br>
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Jun'25:</span> <a href="#disenq" style="text-decoration: none; color: inherit;"> <strong>First-author paper</strong></a> got accepted in ICCV 2025 as Highlight. ⭐️🔥 <br>
 
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'25:</span> <strong> Depth and Height Perception Benchmark (First-author paper)</strong> got accepted in CVPR MMFM Workshop 2025. <br>
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Feb'25:</span> <strong>HierarQ (First-author paper)</strong> got accepted in CVPR'25. 🔥 <br>
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'25:</span> <a href="#geometer" style="text-decoration: none; color: inherit;">
+                    <strong> Benchmark paper</strong> </a> got accepted in CVPR MMFM Workshop 2025. <br>
+
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Feb'25:</span> <a href="#hierarq" style="text-decoration: none; color: inherit;">
+                      <strong>First-author paper</strong></a> got accepted in CVPR'25. 🔥 <br>
 
                                         
                     <!-- <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Apr'24:</span> <strong>Diversity, Equity and Inclusion Award</strong> to attend CVPR 2024. <br> -->
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'24:</span> <strong> Distribution Shift Benchmark </strong> got accepted in CVPR MMFM Workshop 2024. <br>
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'24:</span> <strong> Compositional Reasoning Benchmark </strong> got accepted in CVPR MMFM Workshop 2024. <br>
-                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Feb'24:</span> <strong>Activity-Biometrics (First-author paper)</strong> got accepted in CVPR'24. 🔥 <br>
+
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'24:</span> <a href="#robustness" style="text-decoration: none; color: inherit;"> <strong> Benchmark paper </strong></a> got accepted in CVPR MMFM Workshop 2024. <br>
+
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Mar'24:</span> <a href="#compositionality" style="text-decoration: none; color: inherit;"><strong> Benchmark paper </strong></a> got accepted in CVPR MMFM Workshop 2024. <br>
+                    
+                    <span style="font-family: 'Courier New', Courier, monospace; color: #696969;">&nbsp;<i class="fa fa-share-alt" style="font-size:12px"></i> Feb'24:</span> <a href="#abnet" style="text-decoration: none; color: inherit;"><strong>First-author paper</strong></a> got accepted in CVPR'24. 🔥 <br>
                   </p>
                 </td>
               </tr>
@@ -105,7 +115,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
+          <tr id = "disenq" onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/disenq_teaser.png' width="160" height="80">
@@ -130,7 +140,7 @@
             </td>
           </tr>
 
-        <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+        <tr id = "geometer" onmouseout="mira_stop()" onmouseover="mira_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/geometer_teaser.png' width="160" height="80">
@@ -158,7 +168,7 @@
 
 
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
+          <tr id = "hierarq" onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/hierarq_teaser.png' width="160" height="80">
@@ -182,7 +192,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+          <tr id = "robustness" onmouseout="mira_stop()" onmouseover="mira_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/robustness_teaser.png' width="160" height="80">
@@ -209,7 +219,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+          <tr id = "compositionality" onmouseout="mira_stop()" onmouseover="mira_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/compositionality_teaser.png' width="160" height="80">
@@ -237,7 +247,7 @@
           </tr>
 
 
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
+          <tr id="abnet" onmouseout="mira_stop()" onmouseover="mira_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/abnet_teaser.png' width="160" height="80">
