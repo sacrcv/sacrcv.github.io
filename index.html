@@ -20,6 +20,21 @@
 
 <body>
 
+  <!-- icon sprite: brand marks from simple-icons (CC0), UI glyphs from lucide (ISC) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+      <symbol id="i-arxiv" viewBox="0 0 24 24"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z"/></symbol>
+      <symbol id="i-huggingface" viewBox="0 0 24 24"><path d="M12.025 1.13c-5.77 0-10.449 4.647-10.449 10.378 0 1.112.178 2.181.503 3.185.064-.222.203-.444.416-.577a.96.96 0 0 1 .524-.15c.293 0 .584.124.84.284.278.173.48.408.71.694.226.282.458.611.684.951v-.014c.017-.324.106-.622.264-.874s.403-.487.762-.543c.3-.047.596.06.787.203s.31.313.4.467c.15.257.212.468.233.542.01.026.653 1.552 1.657 2.54.616.605 1.01 1.223 1.082 1.912.055.537-.096 1.059-.38 1.572.637.121 1.294.187 1.967.187.657 0 1.298-.063 1.921-.178-.287-.517-.44-1.041-.384-1.581.07-.69.465-1.307 1.081-1.913 1.004-.987 1.647-2.513 1.657-2.539.021-.074.083-.285.233-.542.09-.154.208-.323.4-.467a1.08 1.08 0 0 1 .787-.203c.359.056.604.29.762.543s.247.55.265.874v.015c.225-.34.457-.67.683-.952.23-.286.432-.52.71-.694.257-.16.547-.284.84-.285a.97.97 0 0 1 .524.151c.228.143.373.388.43.625l.006.04a10.3 10.3 0 0 0 .534-3.273c0-5.731-4.678-10.378-10.449-10.378M8.327 6.583a1.5 1.5 0 0 1 .713.174 1.487 1.487 0 0 1 .617 2.013c-.183.343-.762-.214-1.102-.094-.38.134-.532.914-.917.71a1.487 1.487 0 0 1 .69-2.803m7.486 0a1.487 1.487 0 0 1 .689 2.803c-.385.204-.536-.576-.916-.71-.34-.12-.92.437-1.103.094a1.487 1.487 0 0 1 .617-2.013 1.5 1.5 0 0 1 .713-.174m-10.68 1.55a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92m13.838 0a.96.96 0 1 1 0 1.92.96.96 0 0 1 0-1.92M8.489 11.458c.588.01 1.965 1.157 3.572 1.164 1.607-.007 2.984-1.155 3.572-1.164.196-.003.305.12.305.454 0 .886-.424 2.328-1.563 3.202-.22-.756-1.396-1.366-1.63-1.32q-.011.001-.02.006l-.044.026-.01.008-.03.024q-.018.017-.035.036l-.032.04a1 1 0 0 0-.058.09l-.014.025q-.049.088-.11.19a1 1 0 0 1-.083.116 1.2 1.2 0 0 1-.173.18q-.035.029-.075.058a1.3 1.3 0 0 1-.251-.243 1 1 0 0 1-.076-.107c-.124-.193-.177-.363-.337-.444-.034-.016-.104-.008-.2.022q-.094.03-.216.087-.06.028-.125.063l-.13.074q-.067.04-.136.086a3 3 0 0 0-.135.096 3 3 0 0 0-.26.219 2 2 0 0 0-.12.121 2 2 0 0 0-.106.128l-.002.002a2 2 0 0 0-.09.132l-.001.001a1.2 1.2 0 0 0-.105.212q-.013.036-.024.073c-1.139-.875-1.563-2.317-1.563-3.203 0-.334.109-.457.305-.454m.836 10.354c.824-1.19.766-2.082-.365-3.194-1.13-1.112-1.789-2.738-1.789-2.738s-.246-.945-.806-.858-.97 1.499.202 2.362c1.173.864-.233 1.45-.685.64-.45-.812-1.683-2.896-2.322-3.295s-1.089-.175-.938.647 2.822 2.813 2.562 3.244-1.176-.506-1.176-.506-2.866-2.567-3.49-1.898.473 1.23 2.037 2.16c1.564.932 1.686 1.178 1.464 1.53s-3.675-2.511-4-1.297c-.323 1.214 3.524 1.567 3.287 2.405-.238.839-2.71-1.587-3.216-.642-.506.946 3.49 2.056 3.522 2.064 1.29.33 4.568 1.028 5.713-.624m5.349 0c-.824-1.19-.766-2.082.365-3.194 1.13-1.112 1.789-2.738 1.789-2.738s.246-.945.806-.858.97 1.499-.202 2.362c-1.173.864.233 1.45.685.64.451-.812 1.683-2.896 2.322-3.295s1.089-.175.938.647-2.822 2.813-2.562 3.244 1.176-.506 1.176-.506 2.866-2.567 3.49-1.898-.473 1.23-2.037 2.16c-1.564.932-1.686 1.178-1.464 1.53s3.675-2.511 4-1.297c.323 1.214-3.524 1.567-3.287 2.405.238.839 2.71-1.587 3.216-.642.506.946-3.49 2.056-3.522 2.064-1.29.33-4.568 1.028-5.713-.624"/></symbol>
+      <symbol id="i-amazon" viewBox="0 0 24 24"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.525.13.12.174.09.336-.12.48-.256.19-.6.41-1.006.654-1.244.743-2.64 1.316-4.185 1.726a17.617 17.617 0 01-10.951-.577 17.88 17.88 0 01-5.43-3.35c-.1-.074-.151-.15-.151-.22 0-.047.021-.09.051-.13zm6.565-6.218c0-1.005.247-1.863.743-2.577.495-.71 1.17-1.25 2.04-1.615.796-.335 1.756-.575 2.912-.72.39-.046 1.033-.103 1.92-.174v-.37c0-.93-.105-1.558-.3-1.875-.302-.43-.78-.65-1.44-.65h-.182c-.48.046-.896.196-1.246.46-.35.27-.575.63-.675 1.096-.06.3-.206.465-.435.51l-2.52-.315c-.248-.06-.372-.18-.372-.39 0-.046.007-.09.022-.15.247-1.29.855-2.25 1.82-2.88.976-.616 2.1-.975 3.39-1.05h.54c1.65 0 2.957.434 3.888 1.29.135.15.27.3.405.48.12.165.224.314.283.45.075.134.15.33.195.57.06.254.105.42.135.51.03.104.062.3.076.615.01.313.02.493.02.553v5.28c0 .376.06.72.165 1.036.105.313.21.54.315.674l.51.674c.09.136.136.256.136.36 0 .12-.06.226-.18.314-1.2 1.05-1.86 1.62-1.963 1.71-.165.135-.375.15-.63.045a6.062 6.062 0 01-.526-.496l-.31-.347a9.391 9.391 0 01-.317-.42l-.3-.435c-.81.886-1.603 1.44-2.4 1.665-.494.15-1.093.227-1.83.227-1.11 0-2.04-.343-2.76-1.034-.72-.69-1.08-1.665-1.08-2.94l-.05-.076zm3.753-.438c0 .566.14 1.02.425 1.364.285.34.675.512 1.155.512.045 0 .106-.007.195-.02.09-.016.134-.023.166-.023.614-.16 1.08-.553 1.424-1.178.165-.28.285-.58.36-.91.09-.32.12-.59.135-.8.015-.195.015-.54.015-1.005v-.54c-.84 0-1.484.06-1.92.18-1.275.36-1.92 1.17-1.92 2.43l-.035-.02zm9.162 7.027c.03-.06.075-.11.132-.17.362-.243.714-.41 1.05-.5a8.094 8.094 0 011.612-.24c.14-.012.28 0 .41.03.65.06 1.05.168 1.172.33.063.09.099.228.099.39v.15c0 .51-.149 1.11-.424 1.8-.278.69-.664 1.248-1.156 1.68-.073.06-.14.09-.197.09-.03 0-.06 0-.09-.012-.09-.044-.107-.12-.064-.24.54-1.26.806-2.143.806-2.64 0-.15-.03-.27-.087-.344-.145-.166-.55-.257-1.224-.257-.243 0-.533.016-.87.046-.363.045-.7.09-1 .135-.09 0-.148-.014-.18-.044-.03-.03-.036-.047-.02-.077 0-.017.006-.03.02-.063v-.06z"/></symbol>
+      <symbol id="i-scholar" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" /></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /> <rect x="2" y="4" width="20" height="16" rx="2" /></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /> <path d="M22 10v6" /> <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></symbol>
+  </svg>
+
   <!-- ============================== NAV ============================== -->
   <nav class="navbar" aria-label="Section navigation">
     <div class="navbar-inner">
@@ -62,11 +77,11 @@
           </p>
 
           <div class="contact">
-            <a href="mailto:shehreen.azad@ucf.edu">Email</a>
-            <a href="https://scholar.google.com/citations?user=2SqIiLwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-            <a href="data/resume__1page_.pdf">Resume</a>
-            <a href="https://github.com/sacrcv" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/shehreen-azad-89b1bb26a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:shehreen.azad@ucf.edu"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-mail"/></svg>Email</a>
+            <a href="https://scholar.google.com/citations?user=2SqIiLwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-scholar"/></svg>Google Scholar</a>
+            <a href="data/resume__1page_.pdf"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-doc"/></svg>Resume</a>
+            <a href="https://github.com/sacrcv" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a>
+            <a href="https://www.linkedin.com/in/shehreen-azad-89b1bb26a/" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a>
           </div>
         </div>
 
@@ -182,8 +197,8 @@
               <div class="pub-meta">
                 <span class="badge">CVPR 2026</span>
                 <span class="badge badge-quiet">Patent pending</span>
-                  <!-- <a href="" target="_blank" rel="noopener noreferrer">Patent pending</a>  -->
-                </span>
+                <!-- once the patent publishes, link it:
+                     <span class="badge badge-quiet"><a href="https://patents.google.com/patent/..." target="_blank" rel="noopener noreferrer">Patent pending</a></span> -->
               </div>
               <p class="pub-desc">
                 A memory-augmented, task-agnostic multimodal framework that gives Multimodal Large Language Models
@@ -191,11 +206,11 @@
                 and when to answer under a streaming budget.
               </p>
               <div class="pub-links">
-                <a class="pill" href="https://sacrcv.github.io/StreamReady-website" target="_blank" rel="noopener noreferrer">Project Page</a>
-                <a class="pill" href="https://arxiv.org/pdf/2603.08620" target="_blank" rel="noopener noreferrer">Paper</a>
-                <a class="pill" href="https://arxiv.org/abs/2603.08620" target="_blank" rel="noopener noreferrer">arXiv</a>
-                <a class="pill" href="https://github.com/sacrcv/StreamReady" target="_blank" rel="noopener noreferrer">Code</a>
-                <a class="pill" href="https://huggingface.co/datasets/shehreen3764/ProReady-QA" target="_blank" rel="noopener noreferrer">Data</a>
+                <a class="pill" href="https://sacrcv.github.io/StreamReady-website" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-globe"/></svg>Project Page</a>
+                <a class="pill" href="https://arxiv.org/pdf/2603.08620" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-doc"/></svg>Paper</a>
+                <a class="pill" href="https://arxiv.org/abs/2603.08620" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-arxiv"/></svg>arXiv</a>
+                <a class="pill" href="https://github.com/sacrcv/StreamReady" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>Code</a>
+                <a class="pill" href="https://huggingface.co/datasets/shehreen3764/ProReady-QA" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-huggingface"/></svg>Data</a>
               </div>
             </div>
           </article>
@@ -224,10 +239,10 @@
                 using language-guided, motion-centric temporal modeling to separate identity from appearance.
               </p>
               <div class="pub-links">
-                <a class="pill" href="https://sacrcv.github.io/DisenQ-website/" target="_blank" rel="noopener noreferrer">Project Page</a>
-                <a class="pill" href="https://arxiv.org/pdf/2507.07262" target="_blank" rel="noopener noreferrer">Paper</a>
-                <a class="pill" href="https://arxiv.org/abs/2507.07262" target="_blank" rel="noopener noreferrer">arXiv</a>
-                <a class="pill" href="https://github.com/sacrcv/DisenQ" target="_blank" rel="noopener noreferrer">Code</a>
+                <a class="pill" href="https://sacrcv.github.io/DisenQ-website/" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-globe"/></svg>Project Page</a>
+                <a class="pill" href="https://arxiv.org/pdf/2507.07262" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-doc"/></svg>Paper</a>
+                <a class="pill" href="https://arxiv.org/abs/2507.07262" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-arxiv"/></svg>arXiv</a>
+                <a class="pill" href="https://github.com/sacrcv/DisenQ" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>Code</a>
               </div>
             </div>
           </article>
@@ -253,11 +268,11 @@
                 for efficient understanding of arbitrarily long-form video.
               </p>
               <div class="pub-links">
-                <a class="pill" href="https://sacrcv.github.io/HierarQ-website/" target="_blank" rel="noopener noreferrer">Project Page</a>
+                <a class="pill" href="https://sacrcv.github.io/HierarQ-website/" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-globe"/></svg>Project Page</a>
                 <a class="pill"
-                  href="https://openaccess.thecvf.com/content/CVPR2025/papers/Azad_HierarQ_Task-Aware_Hierarchical_Q-Former_for_Enhanced_Video_Understanding_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-                <a class="pill" href="https://arxiv.org/abs/2503.08585" target="_blank" rel="noopener noreferrer">arXiv</a>
-                <a class="pill" href="https://github.com/sacrcv/HierarQ" target="_blank" rel="noopener noreferrer">Code</a>
+                  href="https://openaccess.thecvf.com/content/CVPR2025/papers/Azad_HierarQ_Task-Aware_Hierarchical_Q-Former_for_Enhanced_Video_Understanding_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-doc"/></svg>Paper</a>
+                <a class="pill" href="https://arxiv.org/abs/2503.08585" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-arxiv"/></svg>arXiv</a>
+                <a class="pill" href="https://github.com/sacrcv/HierarQ" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>Code</a>
               </div>
             </div>
           </article>
@@ -288,9 +303,9 @@
               </p>
               <div class="pub-links">
                 <a class="pill"
-                  href="https://openaccess.thecvf.com/content/CVPR2024/papers/Azad_Activity-Biometrics_Person_Identification_from_Daily_Activities_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-                <a class="pill" href="https://arxiv.org/abs/2403.17360" target="_blank" rel="noopener noreferrer">arXiv</a>
-                <a class="pill" href="https://github.com/sacrcv/Activity-Biometrics" target="_blank" rel="noopener noreferrer">Code</a>
+                  href="https://openaccess.thecvf.com/content/CVPR2024/papers/Azad_Activity-Biometrics_Person_Identification_from_Daily_Activities_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-doc"/></svg>Paper</a>
+                <a class="pill" href="https://arxiv.org/abs/2403.17360" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-arxiv"/></svg>arXiv</a>
+                <a class="pill" href="https://github.com/sacrcv/Activity-Biometrics" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>Code</a>
               </div>
             </div>
           </article>
@@ -309,7 +324,7 @@
             <div class="tl-when">Sep 2026 &ndash; Present</div>
             <div class="tl-body">
               <p class="tl-role">Applied Scientist II</p>
-              <p class="tl-org"><a href="https://ring.com" target="_blank" rel="noopener noreferrer">Ring</a>, Amazon &middot; Bellevue, WA</p>
+              <p class="tl-org"><svg class="ic" aria-hidden="true"><use href="#i-amazon"/></svg><a href="https://ring.com" target="_blank" rel="noopener noreferrer">Ring</a>, Amazon &middot; Bellevue, WA</p>
               <p>
                 Multimodal video understanding for production streaming systems, spanning long-form temporal
                 reasoning, efficient modeling under tight compute budgets, and evaluation of multimodal large
@@ -322,7 +337,7 @@
             <div class="tl-when">May 2026 &ndash; Jul 2026</div>
             <div class="tl-body">
               <p class="tl-role">Applied Scientist Intern</p>
-              <p class="tl-org"><a href="https://ring.com" target="_blank" rel="noopener noreferrer">Ring</a>, Amazon &middot; Bellevue, WA</p>
+              <p class="tl-org"><svg class="ic" aria-hidden="true"><use href="#i-amazon"/></svg><a href="https://ring.com" target="_blank" rel="noopener noreferrer">Ring</a>, Amazon &middot; Bellevue, WA</p>
               <p>
                 Built a balanced-memory streaming architecture for ultra-long video understanding, retaining
                 early context across week-long streams. Led to a first-author submission to ICLR 2027.
@@ -342,8 +357,8 @@
           <div class="tl-item">
             <div class="tl-when">Aug 2023 &ndash; Dec 2026</div>
             <div class="tl-body">
-              <p class="tl-role">PhD, Computer Science <span class="badge badge-quiet">Expected</span></p>
-              <p class="tl-org">University of Central Florida &middot; GPA 3.92 / 4.0</p>
+              <p class="tl-role">PhD, Computer Science</p>
+              <p class="tl-org"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-cap"/></svg>University of Central Florida &middot; GPA 3.92 / 4.0</p>
               <p>
                 Advisor: <a href="https://v4xlab.github.io/" target="_blank" rel="noopener noreferrer">Dr Yogesh Singh Rawat</a>.
                 <br> Additional Committee Members: <a href="https://scholar.google.com/citations?hl=en&user=p8gsO3gAAAAJ" target="_blank" rel="noopener noreferrer">Dr Mubarak Shah</a>, 
@@ -352,7 +367,7 @@
               </p>
               <br>
               <div class="pub-links">
-                <a class="pill" href="https://www.youtube.com/watch?v=Y4Zmhob2T7w" target="_blank" rel="noopener noreferrer">Defense Talk</a>
+                <a class="pill" href="https://www.youtube.com/watch?v=Y4Zmhob2T7w" target="_blank" rel="noopener noreferrer"><svg class="ic" aria-hidden="true"><use href="#i-youtube"/></svg>Defense Talk</a>
               </div>
             </div>
           </div>
@@ -361,7 +376,7 @@
             <div class="tl-when">Aug 2022 &ndash; Jul 2023</div>
             <div class="tl-body">
               <p class="tl-role">MS, Computer Science</p>
-              <p class="tl-org">University of Central Florida</p>
+              <p class="tl-org"><svg class="ic ic-stroke" aria-hidden="true"><use href="#i-cap"/></svg>University of Central Florida</p>
             </div>
           </div>
         </div>

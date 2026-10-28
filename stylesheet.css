@@ -76,6 +76,31 @@ img {
   height: auto;
 }
 
+/* ---------------------------------- icons */
+
+/* the sprite itself is never rendered, only referenced via <use> */
+.sprite {
+  display: none;
+}
+
+.ic {
+  width: 1.08em;
+  height: 1.08em;
+  flex: 0 0 auto;
+  fill: currentColor;
+  vertical-align: -.15em;
+  margin-right: .45em;
+}
+
+/* lucide glyphs are outline-drawn, so they inherit stroke instead of fill */
+.ic-stroke {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
